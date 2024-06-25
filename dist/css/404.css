@@ -1123,15 +1123,15 @@ textarea.input {
   gap: 1rem;
 }
 
-@supports (margin-top: clamp( 0.0000000625rem , -0.5681817273rem  +  2.424242303vw , 1.25rem )) {
+@supports (padding-top: clamp( 0.0000000625rem , -0.5681817273rem  +  2.424242303vw , 1.25rem )) {
   .page__section-error {
-    margin-top: clamp( 0.0000000625rem , -0.5681817273rem  +  2.424242303vw , 1.25rem );
+    padding-top: clamp( 0.0000000625rem , -0.5681817273rem  +  2.424242303vw , 1.25rem );
   }
 }
 
-@supports not (margin-top: clamp( 0.0000000625rem , -0.5681817273rem  +  2.424242303vw , 1.25rem )) {
+@supports not (padding-top: clamp( 0.0000000625rem , -0.5681817273rem  +  2.424242303vw , 1.25rem )) {
   .page__section-error {
-    margin-top: calc(0.0000000625rem + 1.2499999375 * (100vw - 23.4375rem) / 51.5625);
+    padding-top: calc(0.0000000625rem + 1.2499999375 * (100vw - 23.4375rem) / 51.5625);
   }
 }
 
@@ -1367,7 +1367,7 @@ textarea.input {
 
 @media (max-width: 47.99875em) {
   .page {
-    padding-top: 4.875rem;
+    padding-top: 4.75rem;
   }
 
   .header__body {
@@ -1619,7 +1619,7 @@ textarea.input {
 
   .wrapper._header-scroll .page,
   .wrapper._header-scroll ~ .page {
-    padding-top: 5.125rem;
+    padding-top: 4.5rem;
   }
 
   .wrapper._header-scroll .footer,

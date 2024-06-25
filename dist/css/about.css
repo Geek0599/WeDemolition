@@ -1984,7 +1984,7 @@ textarea.input {
 
 @media (max-width: 47.99875em) {
   .page {
-    padding-top: 4.875rem;
+    padding-top: 4.75rem;
   }
 
   .header__body {
@@ -2418,7 +2418,7 @@ textarea.input {
 
   .wrapper._header-scroll .page,
   .wrapper._header-scroll ~ .page {
-    padding-top: 5.125rem;
+    padding-top: 4.5rem;
   }
 
   .wrapper._header-scroll .footer,
